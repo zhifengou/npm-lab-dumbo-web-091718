@@ -1,0 +1,27 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhifengou/npm-lab-dumbo-web-091718.git"
+  },
+  "author": "steven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhifengou/npm-lab-dumbo-web-091718/issues"
+  },
+  "homepage": "https://github.com/zhifengou/npm-lab-dumbo-web-091718#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {}
+}
